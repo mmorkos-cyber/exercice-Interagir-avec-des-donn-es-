@@ -1,0 +1,182 @@
+{
+    "produits": [
+        {
+            "id": 1,
+            "nom": "Clavier mécanique RGB",
+            "categorie": "Informatique",
+            "prix": 89.99,
+            "stock": 12
+        },
+        {
+            "id": 2,
+            "nom": "Souris ergonomique",
+            "categorie": "Informatique",
+            "prix": 49.9,
+            "stock": 25
+        },
+        {
+            "id": 3,
+            "nom": "Casque audio Bluetooth",
+            "categorie": "Audio",
+            "prix": 79.0,
+            "stock": 8
+        },
+        {
+            "id": 4,
+            "nom": "Enceinte portable",
+            "categorie": "Audio",
+            "prix": 59.99,
+            "stock": 0
+        },
+        {
+            "id": 5,
+            "nom": "Webcam HD 1080p",
+            "categorie": "Informatique",
+            "prix": 39.99,
+            "stock": 5
+        },
+        {
+            "id": 6,
+            "nom": "Chargeur USB-C 65W",
+            "categorie": "Accessoires",
+            "prix": 29.99,
+            "stock": 18
+        },
+        {
+            "id": 7,
+            "nom": "Batterie externe 20 000mAh",
+            "categorie": "Accessoires",
+            "prix": 34.99,
+            "stock": 0
+        },
+        {
+            "id": 8,
+            "nom": "Écran 24 pouces",
+            "categorie": "Informatique",
+            "prix": 149.0,
+            "stock": 7
+        },
+        {
+            "id": 9,
+            "nom": "Écran 27 pouces",
+            "categorie": "Informatique",
+            "prix": 219.0,
+            "stock": 3
+        },
+        {
+            "id": 10,
+            "nom": "Microphone USB",
+            "categorie": "Audio",
+            "prix": 69.99,
+            "stock": 10
+        },
+        {
+            "id": 11,
+            "nom": "Câble HDMI 2m",
+            "categorie": "Accessoires",
+            "prix": 9.99,
+            "stock": 50
+        },
+        {
+            "id": 12,
+            "nom": "Hub USB 4 ports",
+            "categorie": "Accessoires",
+            "prix": 19.99,
+            "stock": 22
+        },
+        {
+            "id": 13,
+            "nom": "Clé USB 64Go",
+            "categorie": "Stockage",
+            "prix": 14.99,
+            "stock": 40
+        },
+        {
+            "id": 14,
+            "nom": "SSD 1To",
+            "categorie": "Stockage",
+            "prix": 89.99,
+            "stock": 6
+        },
+        {
+            "id": 15,
+            "nom": "Disque dur 2To",
+            "categorie": "Stockage",
+            "prix": 69.99,
+            "stock": 12
+        },
+        {
+            "id": 16,
+            "nom": "Casque gaming",
+            "categorie": "Informatique",
+            "prix": 59.99,
+            "stock": 0
+        },
+        {
+            "id": 17,
+            "nom": "Tapis de souris XL",
+            "categorie": "Accessoires",
+            "prix": 12.99,
+            "stock": 33
+        },
+        {
+            "id": 18,
+            "nom": "Enceinte de bureau",
+            "categorie": "Audio",
+            "prix": 39.99,
+            "stock": 14
+        },
+        {
+            "id": 19,
+            "nom": "Lampe LED bureau",
+            "categorie": "Maison",
+            "prix": 24.99,
+            "stock": 9
+        },
+        {
+            "id": 20,
+            "nom": "Support PC portable",
+            "categorie": "Accessoires",
+            "prix": 27.99,
+            "stock": 11
+        }
+    ],
+    "valeurMarchande": [
+        [
+            "Accessoires",
+            2215.66
+        ],
+        [
+            "Audio",
+            1891.76
+        ],
+        [
+            "Informatique",
+            4227.33
+        ],
+        [
+            "Maison",
+            224.91
+        ],
+        [
+            "Stockage",
+            1979.4199999999998
+        ]
+    ],
+    "produitRupture": [
+        [
+            "Enceinte portable"
+        ],
+        [
+            "Batterie externe 20 000mAh"
+        ],
+        [
+            "Casque gaming"
+        ]
+    ],
+    "valeurTotale": [
+        [
+            10539.08
+        ]
+    ]
+}
