@@ -13,7 +13,7 @@ cur.execute("SELECT nom FROM produits WHERE stock = 0")
 produitRupture = cur.fetchall()
 
 cur.execute("SELECT sum(prix * stock) as valeurTotale FROM produits")
-valeurTotale = cur.fetchall
+valeurTotale = cur.fetchall()
 # Récupérer les noms de colonnes
 colonnes = [desc[0] for desc in cur.description]
 #Transformer en dictionnaires
