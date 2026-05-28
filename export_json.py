@@ -1,11 +1,19 @@
 import sqlite3
 import json
+
 #Connexion à la base
 conn = sqlite3.connect("produits.db")
 cur = conn.cursor()
+
 # Exécuter une requête
 cur.execute("SELECT * FROM produits")
 rows = cur.fetchall()
+
+cur.execute("SELECT nom FROM produits WHERE stock = 0")
+produitRupture = cur.fetchall()
+
+cur.execute("SELECT sum(prix * stock) as valeurTotale FROM produits")
+valeurTotale = cur.fetchall()
 # Récupérer les noms de colonnes
 colonnes = [desc[0] for desc in cur.description]
 #Transformer en dictionnaires
