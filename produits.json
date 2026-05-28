@@ -1,0 +1,142 @@
+[
+    [
+        1,
+        "Clavier mécanique RGB",
+        "Informatique",
+        89.99,
+        12
+    ],
+    [
+        2,
+        "Souris ergonomique",
+        "Informatique",
+        49.9,
+        25
+    ],
+    [
+        3,
+        "Casque audio Bluetooth",
+        "Audio",
+        79.0,
+        8
+    ],
+    [
+        4,
+        "Enceinte portable",
+        "Audio",
+        59.99,
+        0
+    ],
+    [
+        5,
+        "Webcam HD 1080p",
+        "Informatique",
+        39.99,
+        5
+    ],
+    [
+        6,
+        "Chargeur USB-C 65W",
+        "Accessoires",
+        29.99,
+        18
+    ],
+    [
+        7,
+        "Batterie externe 20 000mAh",
+        "Accessoires",
+        34.99,
+        0
+    ],
+    [
+        8,
+        "Écran 24 pouces",
+        "Informatique",
+        149.0,
+        7
+    ],
+    [
+        9,
+        "Écran 27 pouces",
+        "Informatique",
+        219.0,
+        3
+    ],
+    [
+        10,
+        "Microphone USB",
+        "Audio",
+        69.99,
+        10
+    ],
+    [
+        11,
+        "Câble HDMI 2m",
+        "Accessoires",
+        9.99,
+        50
+    ],
+    [
+        12,
+        "Hub USB 4 ports",
+        "Accessoires",
+        19.99,
+        22
+    ],
+    [
+        13,
+        "Clé USB 64Go",
+        "Stockage",
+        14.99,
+        40
+    ],
+    [
+        14,
+        "SSD 1To",
+        "Stockage",
+        89.99,
+        6
+    ],
+    [
+        15,
+        "Disque dur 2To",
+        "Stockage",
+        69.99,
+        12
+    ],
+    [
+        16,
+        "Casque gaming",
+        "Informatique",
+        59.99,
+        0
+    ],
+    [
+        17,
+        "Tapis de souris XL",
+        "Accessoires",
+        12.99,
+        33
+    ],
+    [
+        18,
+        "Enceinte de bureau",
+        "Audio",
+        39.99,
+        14
+    ],
+    [
+        19,
+        "Lampe LED bureau",
+        "Maison",
+        24.99,
+        9
+    ],
+    [
+        20,
+        "Support PC portable",
+        "Accessoires",
+        27.99,
+        11
+    ]
+]
