@@ -39,16 +39,17 @@ for i in produitRupture:
 totale = []
 totale.append(valeurTotale)
 
-#Exporter en JSON
+export = {
+    "produits": rows,
+    "valeurMarchande":list(valeurMarchande),
+    "produitRupture": list(produitRupture),
+    "valeurTotale": valeurTotale
+}
 
-with open("produits.json", "w", encoding="utf-8") as f:
-    json.dump(donnees, f, indent=4, ensure_ascii=False)
-with open("rupture.json", "w", encoding="utf-8") as f:
-    json.dump(rupture, f, indent=4, ensure_ascii=False)
-with open("totale.json", "w", encoding="utf-8") as f:
-    json.dump(totale, f, indent=4, ensure_ascii=False)
-with open("valeurMarchande.json", "w", encoding="utf-8") as f:
-    json.dump (marchand,f,indent=4, ensure_ascii=False)
+
+#Exporter en JSON
+with open("export_complet.json", "w", encoding="utf-8") as f:
+    json.dump(export, f, indent=4, ensure_ascii=False)
 
 print("Export terminé.")
 
