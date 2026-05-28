@@ -20,7 +20,20 @@ colonnes = [desc[0] for desc in cur.description]
 donnees = []
 for ligne in rows:
     donnees.append(ligne)
+
+rupture = []
+for i in produitRupture:
+    rupture.append(i)
+
+totale = []
+totale.append(valeurTotale)
+
 #Exporter en JSON
 with open("produits.json", "w", encoding="utf-8") as f:
     json.dump(donnees, f, indent=4, ensure_ascii=False)
+with open("rupture.json", "w", encoding="utf-8") as f:
+    json.dump(rupture, f, indent=4, ensure_ascii=False)
+with open("totale.json", "w", encoding="utf-8") as f:
+    json.dump(totale, f, indent=4, ensure_ascii=False)
+
 print("Export terminé.")
