@@ -13,7 +13,7 @@ cur4 = conn.cursor()
 cur.execute("SELECT * FROM produits")
 rows = cur.fetchall()
 
-cur2.execute("SELECT categorie, SUM (stock*prix) FROM produits GROUP BY categorie")
+cur2.execute("SELECT categorie, SUM (stock * prix) as marchandes FROM produits GROUP BY categorie")
 valeurMarchande = cur2.fetchall()
 
 cur3.execute("SELECT nom FROM produits WHERE stock = 0")
@@ -35,7 +35,6 @@ colsMarchande = [desc[0] for desc in cur2.description]
 marchand = []
 for i in valeurMarchande :
     marchand.append(dict(zip(colsMarchande,i)))
-
 colsRupture = [desc[0] for desc in cur3.description]
 rupture = []
 for i in produitRupture:
@@ -47,7 +46,7 @@ totale.append(valeurTotale)
 
 export = {
     "produits": donnees,
-    "valeurMarchande":valeurMarchande,
+    "valeurMarchande": marchand,
     "produitRupture": produitRupture,
     "valeurTotale": valeurTotale
 }

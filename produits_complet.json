@@ -142,26 +142,26 @@
         }
     ],
     "valeurMarchande": [
-        [
-            "Accessoires",
-            2215.66
-        ],
-        [
-            "Audio",
-            1891.76
-        ],
-        [
-            "Informatique",
-            4227.33
-        ],
-        [
-            "Maison",
-            224.91
-        ],
-        [
-            "Stockage",
-            1979.4199999999998
-        ]
+        {
+            "categorie": "Accessoires",
+            "marchandes": 2215.66
+        },
+        {
+            "categorie": "Audio",
+            "marchandes": 1891.76
+        },
+        {
+            "categorie": "Informatique",
+            "marchandes": 4227.33
+        },
+        {
+            "categorie": "Maison",
+            "marchandes": 224.91
+        },
+        {
+            "categorie": "Stockage",
+            "marchandes": 1979.4199999999998
+        }
     ],
     "produitRupture": [
         [
